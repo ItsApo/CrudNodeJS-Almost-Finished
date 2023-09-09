@@ -1,0 +1,4 @@
+<br>
+<div style="text-align: center;">
+<h1 style="font-size: 20px;">Usuario conectado: <strong><%= (names) %></strong></h1>
+<a href="login" class="a-logout">Logout</a>

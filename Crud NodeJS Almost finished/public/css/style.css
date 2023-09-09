@@ -1,0 +1,84 @@
+body{
+    background-image: url(https://images6.alphacoders.com/130/1301340.jpg);
+    background-size: cover;
+    margin: auto;
+    text-align: center;
+    font-family: 'Yatra One', cursive;
+}
+
+.login-form{
+    width: 300px;
+    margin: 0 auto;
+    background: linear-gradient(to bottom, #800080, #3b3b3b);
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 1);
+    border-radius: 80px;
+    padding: 70px;
+    margin-top: 100px;
+}
+
+.login-form h1{
+    text-align: center;
+    color: #ffffff;
+    font-size: 28px;
+    transform: translateY(-30px);
+}
+
+.login-form input[type="password"],
+.login-form input[type="text"] {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ced4da;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.btn-login{
+    width: 100%;
+    padding: 15px;
+    background-color: #42c153;
+    border: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: large;
+    color: #ffffff;
+    font-family: 'Yatra One', cursive;
+}
+
+.btn-login:hover, .btn-login:active{
+    color: #fff;
+    background-color: #428f4c;
+    border-color: #428f4c;
+}
+    
+.btn-login:focus{
+    box-shadow: 0 0 0 3px rgba(121,82,179,0.25)
+}
+
+
+.btn-register:focus{
+    box-shadow: 0 0 0 3px #4310b9
+}
+    
+.btn-register:hover, .btn-register:active{
+    color: #fff;
+    background-color: #2f10b9;
+    border-color: #2f10b9;
+}
+    
+.btn-register{
+    width: 100%;
+    padding: 15px;
+    background-color: #4c34d3;
+    border: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: large;
+    color: #ffffff;
+    margin-top: 20px;
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    text-decoration: none;
+}
